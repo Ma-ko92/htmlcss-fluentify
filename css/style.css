@@ -79,10 +79,14 @@ header{
 /* Heading */
 .heading{
     width:50%;
+    padding-top: 15%;
     
 }
 .heading h1{
     font-size: 55px;
-    margin-top: 60%;
+    color: white;
+}
+.heading a{
+    line-height: 100px;
 }
 /* HEADER END*/
