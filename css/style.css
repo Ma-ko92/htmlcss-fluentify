@@ -21,19 +21,20 @@ header{
     height: 550px;
     background-color: #0c325a;
     background-image: url("../img/background-header.png");
-    background-size: 900px;
+    background-size: 1000px;
     background-repeat: no-repeat;
     background-position: 116% 105%;;
 }
 /* Header container */
 .container{
-    width: 80%;
+    width: 85%;
     margin:auto;
+    position: relative;
 }
 .logo{
     margin-top: 15px;
     margin-right: 2%;
-    width:11%;
+    width:10%;
 }
 /* Menu */
 .col{
@@ -45,16 +46,20 @@ header{
     clear: both;
 }
 .nav-left{
-    width:51%;
-    padding-right: 20px;
+    width:50%;
 }
 .nav-right{
      width:36%;
 }
 .menu{
-    margin-top: 20px;
+    margin-top: 15px;
+    margin-left: 25px;
 }
-.menu li{
+.menu-right{
+    margin-top: 17px;
+}
+.menu li,
+.menu-right li{
    display: inline-block; 
    list-style-type: none;
    margin: 0 10px;
@@ -63,30 +68,42 @@ header{
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 52px;
 }
 .button{
     border: 1px solid white;
     border-radius: 5px;
-    padding: 10px 35px;
+    padding: 9px 30px;
 }
 .button-green{
     background-color: #7cbb02;
     border-radius: 5px;
-    padding: 10px 12px;
+    padding: 9px 12px;
 }
 /* Heading */
+.position{
+    position: absolute;
+    top:210px;
+    left:0;
+}
 .heading{
-    width:50%;
-    padding-top: 15%;
-    
+    width:60%;
 }
 .heading h1{
-    font-size: 55px;
+    font-size: 50px;
     color: white;
+    margin-bottom: 45px;
 }
-.heading a{
-    line-height: 100px;
+.h1-button-text{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
 }
+.heading .button-green{
+    padding: 20px 20px;
+}
+
+
 /* HEADER END*/
