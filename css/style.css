@@ -124,11 +124,8 @@ header{
     color: #808080;
     margin-top: 10px;
 }
-.test-bg{
-    /* background-color: #7cbb02;
-    height: 700px */
-}
-.col{
+.col-main{
+    float: left;
     text-align: center;
     width: 30%;
 }
